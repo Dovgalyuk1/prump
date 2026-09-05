@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>PRESIDENT PRUMP — $PRUMP</title>
-<meta name="description" content="president prump. rendered on a green screen, never given a background. he declared the green a country and started signing things.">
+<meta name="description" content="president prump says a thing into the camera and the thing becomes the law. press the red button to hear the next one.">
 <link rel="icon" href="favicon.png">
 <meta property="og:title" content="PRESIDENT PRUMP · $PRUMP">
-<meta property="og:description" content="they never gave me a background. so i tariffed the moon.">
+<meta property="og:description" content="i say a thing into the camera and it becomes the law. today it was the moon.">
 <meta property="og:image" content="og.webp">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -121,7 +121,7 @@ button{font-family:inherit}
   filter:drop-shadow(0 9px 0 #9c7420) drop-shadow(0 17px 0 #5d4410) drop-shadow(0 28px 30px rgba(0,0,0,.65))}
 .slogan{font-size:clamp(11.5px,1.45vw,14.5px);color:#cfe0ff;margin:clamp(30px,3.4vw,36px) auto 0;line-height:1.7;max-width:74ch}
 .hero-char{position:relative;justify-self:center;cursor:pointer;filter:drop-shadow(0 30px 26px rgba(0,0,0,.6));animation:bob 4.6s ease-in-out infinite alternate}
-.hero-char img{height:clamp(210px,43svh,470px);width:auto;margin:0 auto}
+.hero-char img{height:min(43svh,calc(100svh - 430px),470px);min-height:180px;width:auto;margin:0 auto}
 @keyframes bob{to{transform:translateY(-14px) rotate(1.1deg)}}
 .hero-char.pop{animation:pop .45s ease}
 @keyframes pop{40%{transform:translateY(-34px) scale(1.05) rotate(-2deg)}}
@@ -259,11 +259,17 @@ h2.head{font-size:clamp(28px,6.2vw,62px);color:var(--cream);-webkit-text-stroke:
 footer{padding:26px 14px 40px;text-align:center;font-size:10.5px;letter-spacing:.2em;color:#5f76a0;line-height:1.9}
 footer .fmark{font-family:'Anton';font-size:20px;color:var(--gold);letter-spacing:.14em;margin-bottom:10px}
 
+@media (min-width:901px) and (max-height:900px){
+  .word .l2{font-size:clamp(46px,8.6vw,104px)}
+  .word .l1{font-size:clamp(15px,3vw,28px)}
+  .slogan{font-size:12.5px;max-width:104ch;margin-top:24px;line-height:1.6}
+  .hero-char img{height:min(40svh,calc(100svh - 380px),470px)}
+}
 @media (max-width:900px){
   .stage-in{grid-template-columns:1fr;grid-template-rows:auto auto auto auto;padding-bottom:10px;gap:14px;justify-items:center}
   .hero-txt{grid-column:1;grid-row:1}
   .hero-char{grid-column:1;grid-row:2;margin:2px auto 0}
-  .hero-char img{height:min(34svh,290px)}
+  .hero-char img{height:min(34svh,calc(100svh - 360px),290px);min-height:150px}
   .colL{grid-column:1;grid-row:3;justify-self:center}
   .colR{grid-column:1;grid-row:4;justify-self:center}
   .panel,.orderbtn{max-width:100%;width:min(340px,100%)}
@@ -318,7 +324,7 @@ footer .fmark{font-family:'Anton';font-size:20px;color:var(--gold);letter-spacin
   <div class="stage-in">
     <div class="hero-txt">
       <div class="word"><span class="l1">PRESIDENT</span><span class="l2">PRUMP</span></div>
-      <p class="slogan">they rendered me on a green screen at four in the morning and then everybody went to lunch. no background, no floor, no country. so i signed an order declaring the green mine, and since that day the numbers have been the best numbers anybody has ever seen.</p>
+      <p class="slogan">i am the president and the job is very simple. i say a thing into the camera, and by the time i finish saying it, the thing is already the law. press the big red button and you will hear the next one.</p>
     </div>
 
     <div class="colL">
@@ -361,11 +367,11 @@ footer .fmark{font-family:'Anton';font-size:20px;color:var(--gold);letter-spacin
   <h2 class="head">WHO IS PRUMP</h2>
   <div class="lore">
     <div>
-      <p>i was rendered at four in the morning by somebody who was in a hurry. they gave me the hair, the suit, the tie, the little flag, the shoes — beautiful shoes, everybody talks about the shoes — and then they saved the file and went home for the night. nobody ever came back to put a background behind me. that is the entire story and it is a tremendous story.</p>
-      <p>so i stood in the green for a while, alone, thinking. and then it hit me: if there is nothing behind me, then everything behind me is mine. i signed that immediately, on the green, with a marker held like a cigar, which is how all the strongest documents get signed.</p>
-      <p>the hat is not for me. i have never once put it on. i am holding it out, slightly to the right, all day and all night, for whoever finally shows up with a background. people ask if my arm is tired. my arm has never been better. doctors have looked at this arm.</p>
-      <p>and people ask me what the plan is. the plan is the thumb. the thumb goes up and it stays up. three separate departments have asked me in writing to lower it and all three of them have been denied, in writing, with a bigger pen.</p>
-    </div>
+      <p>i became president the normal way. i walked in front of a camera, i said that i was the president, and nobody in the room was brave enough to say anything back to me. that was day one. the camera is still on and i am still standing here, so as far as i am concerned the matter is closed.</p>
+      <p>the job itself is very simple and i am the best in the world at it. i look at a thing, i say a number out loud, and from that moment the thing pays that number. i look at a day of the week, i say i am not happy with it, and the day goes under review. nobody has ever explained to me why it was not always done this way.</p>
+      <p>the hat is not for me. i have never once put it on and i will not be taking questions about the hat today. my arm has been holding it out for forty-one days straight and everybody who has seen the arm says it is the strongest arm they have looked at.</p>
+      <p>and the thumb goes up and the thumb stays up. three separate departments have asked me in writing to lower it, all three of them have been denied in writing, and i used a much bigger pen than they did.</p>
+      </div>
     <figure class="oval">
       <div class="drape l"></div><div class="drape r"></div>
       <div class="stars"></div>
